@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="Hashimkp"
+                fetch="https://github.com/Hashimkp" />
+
+
+        <project path="device/realme/RMX1971" name="android_device_realme_RMX1971" remote="Hashimkp" revision="11" clone-depth="1" />
+
+
+</manifest>
