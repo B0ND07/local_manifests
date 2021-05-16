@@ -10,7 +10,7 @@
         <project path="device/realme/sdm710-common" name="los_device_realme_sdm710" remote="Hashimkp" revision="los" clone-depth="1" />
         <project path="vendor/realme/RMX1971" name="asthanam" remote="Hashimkp" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/sdm710-common" name="common" remote="Hashimkp" revision="eleven" clone-depth="1" />
-        <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="Hashimkp" revision="eleven" clone-depth="1" />
+        <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="KharaMe-devices" revision="eleven" clone-depth="1" />
 
 
 </manifest>
