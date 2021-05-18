@@ -4,13 +4,13 @@
 	<remote name="Hashimkp"
                 fetch="https://github.com/Hashimkp" />
         <remote name="KharaMe-devices" 
-                fetch="https://github.com/PixelExperience-Devices" />
+                fetch="https://github.com/KharaMe-devices" />
 
-        <project path="device/realme/RMX1971" name="los_device_realme_RMX1971" remote="Hashimkp" revision="los" clone-depth="1" />
-        <project path="device/realme/sdm710-common" name="los_device_realme_sdm710" remote="Hashimkp" revision="los" clone-depth="1" />
+        <project path="device/realme/RMX1971" name="android_device_realme_RMX1971" remote="Hashimkp" revision="havoc" clone-depth="1" />
+        <project path="device/realme/sdm710-common" name="android_device_realme_sdm710-common" remote="Hashimkp" revision="aosp" clone-depth="1" />
         <project path="vendor/realme/RMX1971" name="asthanam" remote="Hashimkp" revision="eleven" clone-depth="1" />
-        <project path="vendor/realme/sdm710-common" name="common" remote="Hashimkp" revision="eleven" clone-depth="1" />
-        <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="KharaMe-devices" revision="eleven" clone-depth="1" />
+        <project path="vendor/realme/sdm710-common" name="common" remote="Hashimkp" revision="aosp" clone-depth="1" />
+        <project path="kernel/realme/RMX1971" name="android_kernel_realme_RMX1971" remote="KharaMe-devices" revision="dumaloo-release" clone-depth="1" />
 
 
 </manifest>
