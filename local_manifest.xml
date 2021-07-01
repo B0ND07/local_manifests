@@ -3,13 +3,13 @@
 
 	<remote name="JB"
                 fetch="https://github.com/B0ND07" />
-        <remote name="gitlab" 
+        <remote name="git" 
                 fetch="https://gitlab.com/B0ND07" />
 
         <project path="device/realme/RMX1971" name="android_device_realme_RMX1971" remote="JB" revision="los" clone-depth="1" />
         <project path="device/realme/sdm710-common" name="android_device_realme_sdm710-common" remote="JB" revision="aex" clone-depth="1" />
-        <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="gitlab" revision="eleven" clone-depth="1" />
-        <project path="vendor/realme/sdm710-common" name="common" remote="gitlab" revision="aosp" clone-depth="1" />
+        <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="git" revision="eleven" clone-depth="1" />
+        <project path="vendor/realme/sdm710-common" name="common" remote="git" revision="aosp" clone-depth="1" />
         <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="JB" revision="caftag" clone-depth="1" />
 
 
