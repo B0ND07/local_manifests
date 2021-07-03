@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="B0ND07"
+	<remote name="bond"
                 fetch="https://github.com/B0ND07" />
         <remote name="gitlab" 
                 fetch="https://gitlab.com/B0ND07" />
 
-        <project path="device/realme/RMX1971" name="android_device_realme_RMX1971" remote="B0ND07" revision="havoc" clone-depth="1" />
-        <project path="device/realme/sdm710-common" name="android_device_realme_sdm710-common" remote="B0ND07" revision="aex" clone-depth="1" />
+        <project path="device/realme/RMX1971" name="android_device_realme_RMX1971" remote="gitlab" revision="eleven" clone-depth="1" />
+        <project path="device/realme/sdm710-common" name="android_device_realme_sdm710-common" remote="bond" revision="aex" clone-depth="1" />
         <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="gitlab" revision="eleven" clone-depth="1" />
-        <project path="vendor/realme/sdm710-common" name="common" remote="gitlab" revision="aosp" clone-depth="1" />
-        <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="B0ND07" revision="caftag" clone-depth="1" />
+        <project path="vendor/realme/sdm710-common" name="vendor_realme_sdm710-common" remote="gitlab" revision="aosp" clone-depth="1" />
+        <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="bond" revision="caftag" clone-depth="1" />
 
 
 </manifest>
